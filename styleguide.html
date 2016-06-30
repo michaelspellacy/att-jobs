@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html lang="en" prefix="og: http://ogp.me/ns#" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" prefix="og: http://ogp.me/ns#" class="no-js ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" prefix="og: http://ogp.me/ns#" class="no-js ie9"><![endif]--> 
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" prefix="og: http://ogp.me/ns#" class="no-js"><!--<![endif]-->
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="HandheldFriendly" content="true"/>
+	<meta name="robots" content="index, follow"/> 
+	<meta name="description" content="This is the UI Documentation &amp; Styleguide"/>
+	<meta name="apple-mobile-web-app-title" content="AT&amp;T Careers"/>
+	<meta property="fb:admins" content="hugoplasternaff"/>
+	<meta property="og:title" content="UI Documentation &amp; Style Guide"/>
+	<meta property="og:site_name" content="AT&amp;T Careers"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:image" content="http://college.att.jobs/img/social-profile.jpg"/>
+	<meta property="og:url" content="http://college.att.jobs/styleguide.html"/>
+	<link href="css/global.css" rel="stylesheet"/>
+	<link href="css/error.css" rel="stylesheet"/>
+	<script src="js/libs/misc/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="js/libs/misc/IE9.js"></script>
+	<![endif]-->
+	<title id="page-title">Styleguide - AT&amp;T Careers</title>
+</head>
+
+<body id="styleguide" class="root">
+
+	<div id="top" class="page">
+
+		<header role="banner">
+
+			<a href="index.html"><img src="img/hdr-logo.png" alt="AT&amp;T Careers"/></a>
+
+			<a id="skip-nav" accesskey="s" href="#main">Skip to main content</a>
+
+			<nav id="navigation-primary" role="navigation">
+
+				<ul>
+					<li id="nav-talent-network" class="parent-node"><a href="talent-network.html"><b>Join the Talent Network</b></a></li>
+					<li id="nav-stay-connected" class="parent-node"><a href="stay-connected.html"><b>Get Social</b></a></li>
+					<li id="nav-job-search"><a href="http://connect.att.jobs/" class="external"><b>Job Search &amp; Apply</b></a></li>
+					<li id="nav-menu" class="parent-node"><a href="#navigation-secondary"><b>Menu</b></a></li>
+				</ul>
+
+			</nav>
+
+		</header>
+
+		<main id="main" role="main">
+
+			<!--[if lt IE 9]>
+
+			<p><em>This site has been designed using the latest and greatest web technologies. Please consider <a href="http://www.browsehappy.com">upgrading your browser</a> to enhance your viewing experience.</em></p>
+
+			<![endif]-->
+			
+			
+			<nav id="breadcrumbs" role="navigation" aria-labelledby="breadcrumbs">
+
+				<p><a href="index.html" data-level="1">Home</a> / <a href="styleguide.html" data-level="2" class="active">UI Documentation &amp; Style Guide</a></p>
+
+			</nav>
+			
+			<article id="content">
+
+	<h1>UI Documentation &amp; Style Guide</h1>
+
+	<ul>
+		<li><a href="#technical-notes">Technical Notes</a>
+
+			<ul>
+				<li><a href="#developer">Developer</a></li>
+				<li><a href="#source-code">Source Code</a></li>
+				<li><a href="#browser-support">Browser Support</a></li>
+				<li><a href="#html">HTML Specification</a></li>
+				<li><a href="#css">CSS</a></li>
+				<li><a href="#source-code">Source Code</a></li>
+				<li><a href="#javascript-dependencies">JavaScript Libraries and Dependencies</a></li>
+				<li><a href="#screen-resolution">Screen Resolution</a></li>
+				<li><a href="#breakpoints">Breakpoints</a></li>
+				<li><a href="#google-analytics">Google Analytics</a></li>
+			</ul>
+
+		</li>
+		<li><a href="#directory">Directory Structure</a>
+
+			<ul>
+				<li><a href="#root">college-att-jobs</a></li>
+				<li><a href="#build">build</a></li>
+				<li><a href="#web">web</a></li>
+			</ul>
+
+		</li>
+		<li><a href="#typography">Typography</a></li>
+		<li><a href="#template">Template</a></li>
+		<li><a href="#images">Images</a></li>
+		<li><a href="#multimedia">Multimedia</a></li>
+	</ul>
+
+	<section id="technical-notes">
+
+		<h1>Technical Notes</h1>
+
+		<p><b>Last Updated:</b> <time datetime="2013-11-07T09:09+00:00">November 7th, 2013 9:09 AM</time></p>
+
+		<h2 id="developer">Developer</h2>
+
+		<p>Michael "Spell" Spellacy<br/>Director, User Interface Development<br/><a href="mailto:michael.spellacy@tmp.com">michael.spellacy@tmp.com</a><br/><a href="http://www.twitter.com/spellacy">@spellacy</a></p>
+
+		<h2 id="source-code">Source Code</h2>
+
+		<p>//AdCommsNA/dev/webdev/college-att-jobs/</p>
+
+		<a href="../college-att-jobs.zip" class="button">Download it all!</a>
+
+		<h2 id="browser-support">Browser Support</h2>
+
+		<p>Please visit <a href="http://www.tmp.com/web-standards/">http://www.tmp.com/web-standards/</a> for a listing of the latest browsers that are tested against.</p>
+
+		<p><em>Please note that <blink>IE8</blink> falls under <a href="http://tmp.com/web-standards/#limited-support">limited support</a>.</em></p>
+
+		<h2 id="html">HTML Specification</h2> 
+
+		<p>HTML5 using XML syntax. All elements must be closed and all attributes quoted.</p>
+
+		<h2 id="css">CSS</h2>
+
+		<p>All CSS was written in SASS (Syntactically Awesome Stylesheets), a CSS pre-processor. Learn more about SASS at <a href="http://sass-lang.com/">http://sass-lang.com/</a></p>
+
+		<h2 id="javascript-dependencies">JavaScript Libraries and Dependencies</h2>
+
+		<ul>
+			<li><a href="http://www.jquery.com">jQuery 1.x</a> - JavaScript library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. This system pulls in latest version of jQuery 1.x directly from <a href="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">Google's CDN</a></li>
+			<li><a href="http://www.modernizr.com/">Modernizer (Custom)</a> - JavaScript library that detects HTML5 and CSS3 features in the user's browser.</li>
+			<li><a href="https://github.com/scottjehl/Respond">Respond</a> - Fast &amp; lightweight polyfill for min/max-width CSS3 Media Queries for IE 6-8, and more (if you <em>must</em> have support here).</li>
+			<li><a href="https://code.google.com/p/ie7-js/">ie7-js</a> - A JavaScript library to make MSIE behave like a standards-compliant browser. (Sigh)</li>
+		</ul>
+
+		<h3>jQuery Plugins</h3>
+
+		<ul>
+			<li><a href="http://flexslider.woothemes.com/">Flexslider 2</a> - The best responsive slider. Period. This is a jQuery plugin.</li>
+		</ul>
+
+		<h3>AddThis</h3>
+
+		<p>This system pulls in social network enhancement, AddThis, on as as needed basis. See <a href="../build/js/global.js">build/js/global.js</a> for more details.</p>
+
+		<h2 id="screen-resolution">Screen Resolution</h2>
+
+		<p>Site optimized for a screen resolution of <b>952</b> pixels and below. Design will center in viewports higher than this number.</p>
+
+		<h2 id="breakpoints">Breakpoints</h2>
+
+		<p>There are currently <b>8</b> breakpoints used across this system:</p>
+
+		<ul>
+			<li><b>1024:</b> uincron</li>
+			<li><b>940:</b> vectorsigma</li>
+			<li><b>840:</b> ultramagnus</li>
+			<li><b>768:</b> optimus</li>
+			<li><b>600:</b> megatron</li>
+			<li><b>540:</b> soundwave</li>
+			<li><b>480:</b> cliffjumper</li>
+			<li><b>320:</b> frenzy</li>
+		</ul>
+
+		<p>It is easier to remember breakpoints when they are defined by names (I happen to like Transformers).</p>
+
+		<h2 id="google-analytics">Google Analytics</h2>
+
+		<p>Yes. The account number is <b>UA-4300144-6</b>.</p>
+
+	</section>
+
+	<p class="back-to-top"><a href="#top">Back to top</a></p>
+
+	<section id="directory">
+
+		<h1>Directory Structure</h1>
+
+		<h2 id="root">\college-att-jobs</h2>
+
+		<p>Configuration and miscellaneous files live within this directory.</p>
+
+		<ul>
+			<li><a href="../codekit-config.json">codekit-config.json</a> - Codekit configuration file</li>
+			<li><a href="../config.rb">config.rb</a> - SASS configuration file. Run <code>compass watch</code> at command line from within this directory.</li>
+			<li><a href="../todo.md">todo.md</a> - TODO list for what needs to be done (like writing awesome code). Markdown is the format of champions.</li>
+		</ul>
+
+		<h2 id="build">\build</h2>
+
+		<p>Pre-processed files live within this directory.</p>
+
+		<ul>
+			<li><b>kits</b> - Core UI development was done using <a href="http://incident57.com/codekit/">Codekit</a> (Mac only). These templates may be converted or used as reference in other templating systems. 
+
+				<ul>
+					<li><b>partials</b> - Code fragments used throughout the system.
+
+						<ul>
+							<li><a href="../build/kits/partials/_article-close.kit">_article-close.kit</a></li>
+							<li><a href="../build/kits/partials/_article-open.kit">_article-open.kit</a></li>
+							<li><a href="../build/kits/partials/_awards.kit">_awards.kit</a></li>
+							<li><a href="../build/kits/partials/_breadcrumb-close.kit">_breadcrumb-close.kit</a></li>
+							<li><a href="../build/kits/partials/_breadcrumb-level-1.kit">_breadcrumb-level-1.kit</a></li>
+							<li><a href="../build/kits/partials/_breadcrumb-level-2.kit">_breadcrumb-level-2.kit</a></li>
+							<li><a href="../build/kits/partials/_breadcrumb-level-3.kit">_breadcrumb-level-3.kit</a></li>
+							<li><a href="../build/kits/partials/_breadcrumb-level-4.kit">_breadcrumb-level-4.kit</a></li>
+							<li><a href="../build/kits/partials/_breadcrumb-level-5.kit">_breadcrumb-level-5.kit</a></li>
+							<li><a href="../build/kits/partials/_breadcrumb-open.kit">_breadcrumb-open.kit</a></li>
+							<li><a href="../build/kits/partials/_footer.kit">_footer.kit</a></li>
+							<li><a href="../build/kits/partials/_header.kit">_header.kit</a></li>
+							<li><a href="../build/kits/partials/_media-element-close.kit">_media-element-close.kit</a></li>
+							<li><a href="../build/kits/partials/_media-element-open.kit">_media-element-open.kit</a></li>
+							<li><a href="../build/kits/partials/_module-close.kit">_module-close.kit</a></li>
+							<li><a href="../build/kits/partials/_module-double-align.kit">_module-double-align.kit</a></li>
+							<li><a href="../build/kits/partials/_module-double-video.kit">_module-double-video.kit</a></li>
+							<li><a href="../build/kits/partials/_module-double.kit">_module-double.kit</a></li>
+							<li><a href="../build/kits/partials/_module-quad.kit">_module-quad.kit</a></li>
+							<li><a href="../build/kits/partials/_module-single-content-close.kit">_module-single-content-close.kit</a></li>
+							<li><a href="../build/kits/partials/_module-single-content-middle.kit">_module-single-content-middle.kit</a></li>
+							<li><a href="../build/kits/partials/_module-single-content-open.kit">_module-single-content-open.kit</a></li>
+							<li><a href="../build/kits/partials/_module-single-element-close.kit">_module-single-element-close.kit</a></li>
+							<li><a href="../build/kits/partials/_module-single-element-open.kit">_module-single-element-open.kit</a></li>
+							<li><a href="../build/kits/partials/_module-single-form-close.kit">_module-single-form-close.kit</a></li>
+							<li><a href="../build/kits/partials/_module-single-form-open.kit">_module-single-form-open.kit</a></li>
+							<li><a href="../build/kits/partials/_module-slider.kit">_module-slider.kit</a></li>
+							<li><a href="../build/kits/partials/_module-triple-media-left.kit">_module-triple-media-left.kit</a></li>
+							<li><a href="../build/kits/partials/_module-triple-media-right.kit">_module-triple-media-right.kit</a></li>
+							<li><a href="../build/kits/partials/_module-triple-media-top.kit">_module-triple-media-top.kit</a></li>
+							<li><a href="../build/kits/partials/_module-triple.kit">_module-triple.kit</a></li>
+							<li><a href="../build/kits/partials/_secondary-content-close.kit">_secondary-content-close.kit</a></li>
+							<li><a href="../build/kits/partials/_secondary-content-open.kit">_secondary-content-open.kit</a></li>
+							<li><a href="../build/kits/partials/_section-row-close.kit">_section-row-close.kit</a></li>
+							<li><a href="../build/kits/partials/_section-row-open.kit">_section-row-open.kit</a></li>
+						</ul>
+
+					</li>
+					<li><a href="../build/kits/403-forbidden.kit">403-forbidden.kit</a> - Standard "Directory Forbidden" error</li>
+					<li><a href="../build/kits/404-page-not-found.kit">404-page-not-found.kit</a> - Standard "Page Not Found" error</li>
+					<li><a href="../build/kits/500-server-error.kit">500-server-error.kit</a> - Standard "Server Error" error</li>
+					<li><a href="../build/kits/awards.kit">awards.kit</a></li>
+					<li><a href="../build/kits/awards-after-college.kit">awards-after-college.kit</a></li>
+					<li><a href="../build/kits/awards-experience.kit">awards-experience.kit</a></li>
+					<li><a href="../build/kits/awards-universum.kit">awards-universum.kit</a></li>
+					<li><a href="../build/kits/index.kit">index.kit</a></li>
+					<li><a href="../build/kits/sitemap.kit">sitemap.kit</a></li>
+					<li><a href="../build/kits/stay-connected.kit">stay-connected.kit</a></li>
+					<li><a href="../build/kits/styleguide.kit">styleguide.kit</a></li>
+					<li><a href="../build/kits/talent-network-contest-rules.kit">talent-network-contest-rules.kit</a></li>
+					<li><a href="../build/kits/template.kit">template.kit</a></li>
+
+				</ul>
+
+			</li>
+			<li><b>sass</b> - SASS templates
+
+				<ul>
+					<li><b>partials</b> - Global and common styling used throughout system.
+
+						<ul>
+							<li><a href="../build/sass/partials/_accordion.scss">_accordion.scss</a> - Accordion related CSS.</li>
+							<li><a href="../build/sass/partials/_breadcrumbs.scss">_breadcrumbs.scss</a> - Breadcrumb related CSS.</li>
+							<li><a href="../build/sass/partials/_dialog.scss">_dialog.scss</a> - Modal window related CSS.</li>
+							<li><a href="../build/sass/partials/_disclaimer.scss">_disclaimer.scss</a> - TMP Disclaimer (Optional): Must be shown if a client is viewing template that is currently under development.</li>
+							<li><a href="../build/sass/partials/_flexslider.scss">_flexslider.scss</a> - Flexslider related CSS.</li>
+							<li><a href="../build/sass/partials/_fonts.scss">_fonts.scss</a> - Web Fonts <b class="alert">(Mandatory)</b>: Web fonts used by the project.</li>
+							<li><a href="../build/sass/partials/_footer.scss">_footer.scss</a> - Footer related CSS.</li>
+							<li><a href="../build/sass/partials/_functions.scss">_functions.scss</a> - Functions <b class="alert">(Mandatory)</b>: Global functions used within this project.</li>
+							<li><a href="../build/sass/partials/_header.scss">_header.scss</a> - Header related CSS.</li>
+							<li><a href="../build/sass/partials/_localize.scss">_localize.scss</a> - Localize <b class="alert">(Mandatory)</b>: Localize covers common best practices and baseline behavior.</li>
+							<li><a href="../build/sass/partials/_message.scss">_message.scss</a> - Page Message (Optional): May be used during development while performing live updates.</li>
+							<li><a href="../build/sass/partials/_mixins.scss">_mixins.scss</a> - Mixins <b class="alert">(Mandatory)</b>: Global mixins used within this project.</li>
+							<li><a href="../build/sass/partials/_modules.scss">_modules.scss</a> - Defines all single, double, triple and quad based modules.</li>
+							<li><a href="../build/sass/partials/_navigation-primary.scss">_navigation-primary.scss</a> - Primary navigation related CSS.</li>
+							<li><a href="../build/sass/partials/_navigation-secondary.scss">_navigation-secondary.scss</a> - Secondary navigation (main dropdown) related CSS</li>
+							<li><a href="../build/sass/partials/_normalize.scss">_normalize.scss</a> - Normalize <b class="alert">(Mandatory)</b>: A CSS reset which levels out many cross-browser inconsistencies.</li>
+							<li><a href="../build/sass/partials/_placeholders.scss">_placeholders.scss</a> - Placeholder (Optional): Placeholder patterns used within this project (may need to move to layout)</li>
+							<li><a href="../build/sass/partials/_secondary-content.scss">_secondary-content.scss</a> - Secondary content related CSS. Found on all pages that do not contain main modules.</li>
+							<li><a href="../build/sass/partials/_shame.scss">_shame.scss</a> - Shame (Optional): Cross-browser CSS hacks may be added here. For shame! For shame!</li>
+							<li><a href="../build/sass/partials/_social.scss">_social.scss</a> - Social dropdown related functionality</li>
+							<li><a href="../build/sass/partials/_styleguide.scss">_styleguide.scss</a> - Styleguide (Optional): UI documentation and styleguide specific rules.</li>
+							<li><a href="../build/sass/partials/_talent-network.scss">_talent-network.scss</a> - Talent Network related CSS</li>
+							<li><a href="../build/sass/partials/_theme.scss">_theme.scss</a> - Theme <b class="alert">(Mandatory)</b>: Main layout of site. This file contains imports to other partials that help make the layout.</li>
+							<li><a href="../build/sass/partials/_utility.scss">_utility.scss</a> - Utility navigation related CSS</li>
+							<li><a href="../build/sass/partials/_variables.scss">_variables.scss</a> - Variables <b class="alert">(Mandatory)</b>: Global variables used within this project.</li>
+						</ul>
+
+					</li>
+					<li><a href="../build/sass/partials/error.scss">error.scss</a> - Only used during development. Feel free to remove link reference from <code>build/kits/_header.kit</code> before launch.</li>
+					<li><a href="../build/sass/partials/global.scss">global.scss</a> - One SASS file to rule them all. Imports all other related scss files.</li>
+				</ul>
+
+			</li>
+
+		</ul>
+
+		<h2 id="web">\web</h2>
+
+		<p>All processed files, scripts, images and other assets live within this directory.</p>
+
+		<ul>
+			<li><a href="403-forbidden.html">403-forbidden.html</a> - Standard "Directory Forbidden" error</li>
+			<li><a href="404-page-not-found.html">404-page-not-found.html</a> - Standard "Page Not Found" error</li>
+			<li><a href="500-server-error.html">500-server-error.html</a> - Standard "Server Error" error</li>
+			<li><a href="apple-touch-icon-precomposed.png">apple-touch-icon-precomposed.png</a> - Standard Apple Touch device icon</li>
+			<li><a href="awards.html">awards.html</a> - All awards can stad alone and are pulled into main templates via Ajax.</li>
+			<li><a href="awards-after-college.html">awards-after-college.html</a></li>
+			<li><a href="awards-experience.html">awards-experience.html</a></li>
+			<li><a href="awards-universum.html">awards-universum.html</a></li>
+			<li><a href="crossdomain.xml">crossdomain.xml</a> - Grants a web client, such as Adobe Flash Player, Adobe Reader, etc., permission to handle data across multiple domains.</li>
+			<li><b>css</b> - CSS directory
+
+				<ul>
+					<li><b>fonts</b> - Site related web fonts
+
+						<ul class="type"> 
+							<li class="clearviewattregular"><a href="css/fonts/clearview-att-book.eot">To be or not to be... (clearview-att-book.eot)</a></li>
+							<li class="clearviewattregular"><a href="css/fonts/clearview-att-book.svg">To be or not to be... (clearview-att-book.svg)</a></li>
+							<li class="clearviewattregular"><a href="css/fonts/clearview-att-book.ttf">To be or not to be... (clearview-att-book.ttf)</a></li>
+							<li class="clearviewattregular"><a href="css/fonts/clearview-att-book.woff">To be or not to be... (clearview-att-book.woff)</a></li>
+							<li class="clearviewattlight"><a href="css/fonts/clearview-att-lht.eot">To be or not to be... clearview-att-lht.eot)</a></li>
+							<li class="clearviewattlight"><a href="css/fonts/clearview-att-lht.svg">To be or not to be... (clearview-att-lht.svg)</a></li>
+							<li class="clearviewattlight"><a href="css/fonts/clearview-att-lht.ttf">To be or not to be... (clearview-att-lht.ttf)</a></li>
+							<li class="clearviewattlight"><a href="css/fonts/clearview-att-lht.woff">To be or not to be... (clearview-att-lht.woff)</a></li>
+							<li class="omnes_att_regularregular"><a href="css/fonts/omnes-att-reg.eot">To be or not to be... (omnes-att-reg.eot)</a></li>
+							<li class="omnes_att_regularregular"><a href="css/fonts/omnes-att-reg.svg">To be or not to be... (omnes-att-reg.svg)</a></li>
+							<li class="omnes_att_regularregular"><a href="css/fonts/omnes-att-reg.ttf">To be or not to be... (omnes-att-reg.ttf)</a></li>
+							<li class="omnes_att_regularregular"><a href="css/fonts/omnes-att-reg.woff">To be or not to be... (omnes-att-reg.woff)</a></li>
+							<li class="omnes_attmedium"><a href="css/fonts/omnesatt-medium-webfont.eot">To be or not to be... (omnesatt-medium-webfont.eot)</a></li>
+							<li class="omnes_attmedium"><a href="css/fonts/omnesatt-medium-webfont.svg">To be or not to be... (omnesatt-medium-webfont.svg)</a></li>
+							<li class="omnes_attmedium"><a href="css/fonts/omnesatt-medium-webfont.ttf">To be or not to be... (omnesatt-medium-webfont.ttf)</a></li>
+							<li class="omnes_attmedium"><a href="css/fonts/omnesatt-medium-webfont.woff">To be or not to be... (omnesatt-medium-webfont.woff)</a></li>
+							<li class="omnes_attregular_italic"><a href="css/fonts/omnesatt-regularitalic-webfont.eot">To be or not to be... (omnesatt-regularitalic-webfont.eot)</a></li>
+							<li class="omnes_attregular_italic"><a href="css/fonts/omnesatt-regularitalic-webfont.svg">To be or not to be... (omnesatt-regularitalic-webfont.svg)</a></li>
+							<li class="omnes_attregular_italic"><a href="css/fonts/omnesatt-regularitalic-webfont.ttf">To be or not to be... (omnesatt-regularitalic-webfont.ttf}</a></li>
+							<li class="omnes_attregular_italic"><a href="css/fonts/omnesatt-regularitalic-webfont.woff">To be or not to be... (omnesatt-regularitalic-webfont.woff)</a></li> 
+						</ul>
+
+					</li>
+					<li><a href="css/error.css">error.css</a> - SASS compiled CSS. This file is minified and only used for SASS compile errors. Feel free to remove link reference from <code>build/kits/_header.kit</code> before launch.</li>
+					<li><a href="css/global.css">global.css</a> - SASS compiled CSS. This file is minified.</li>
+				</ul> 
+
+			</li>
+			<li><b>docs</b> - Site related documents
+
+				<ul>
+					<li><a href="docs/development-corporate-finance-leadership-details.pdf">development-corporate-finance-leadership-details.pdf</a></li>
+					<li><a href="docs/development-corporate-hr-leadership-details.pdf">development-corporate-hr-leadership-details.pdf</a></li>
+					<li><a href="docs/development-corporate-leadership-details.pdf">development-corporate-leadership-details.pdf</a></li>
+					<li><a href="docs/development-management-leadership-details.pdf">development-management-leadership-details.pdf</a></li>
+					<li><a href="docs/development-management-retail-leadership-details.pdf">development-management-retail-leadership-details.pdf</a></li>
+					<li><a href="docs/development-sales-business-sales-leadership-details.pdf">development-sales-business-sales-leadership-details.pdf</a></li>
+					<li><a href="docs/development-technology-emerging-technology-details.pdf">development-technology-emerging-technology-details.pdf</a></li>
+					<li><a href="docs/development-technology-network-engineering-details.pdf">development-technology-network-engineering-details.pdf</a></li>
+					<li><a href="docs/development-technology-network-operations-details.pdf">development-technology-network-operations-details.pdf</a></li>
+					<li><a href="docs/internships-corporate-finance-leadership-details.pdf">internships-corporate-finance-leadership-details.pdf</a></li>
+					<li><a href="docs/internships-corporate-hr-leadership-details.pdf">internships-corporate-hr-leadership-details.pdf</a></li>
+					<li><a href="docs/internships-corporate-leadership-details.pdf">internships-corporate-leadership-details.pdf</a></li>
+					<li><a href="docs/internships-management-leadership-details.pdf">internships-management-leadership-details.pdf</a></li>
+					<li><a href="docs/internships-management-retail-leadership-details.pdf">internships-management-retail-leadership-details.pdf</a></li>
+					<li><a href="docs/internships-sales-business-sales-leadership-details.pdf">internships-sales-business-sales-leadership-details.pdf</a></li>
+					<li><a href="docs/internships-technology-att-labs-details.pdf">internships-technology-att-labs-details.pdf</a></li>
+					<li><a href="docs/internships-technology-emerging-technology-details.pdf">internships-technology-emerging-technology-details.pdf</a></li>
+					<li><a href="docs/internships-technology-network-engineering-details.pdf">internships-technology-network-engineering-details.pdf</a></li>
+				</ul>
+
+			</li>
+			<li><a href="favicon.ico">favicon.ico</a> - Standard browser icon</li>
+			<li><a href="humans.txt">humans.txt</a> - All PM's should be filling these out at end of project.</li>
+			<li><b>img</b> - Site related images
+
+				<p>(Not listing images here, because that would be just crazy.)</p>
+
+			</li>
+			<li><a href="index.html">index.html</a></li>
+			<li><b>js</b>
+
+				<ul>
+					<li><b>lib</b> - JavaScript libraries
+
+						<ul>
+							<li><b>jquery</b> - JavaScript library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. Place all jQuery plugin related scripts here.
+
+								<ul>
+									<li><b>plugin</b> - jQuery plugins
+
+										<ul>
+											<li>flexslider.min.js - The best responsive slider. Period.</li>
+										</ul>
+
+									</li>
+								</ul>
+
+							</li>
+							<li><b>misc</b> - Miscellaneous scripts
+
+								<ul>
+									<li>modernizr-2.6.2-respond-1.1.0.min.js - Modernizr and Respond.js are now placed within one script. See <a href="#technical">Technical Notes</a> for more details.</li>
+									<li>ie7-js - A JavaScript library to make MSIE behave like a standards-compliant browser. (Sigh)</li>
+								</ul>
+
+							</li>
+						</ul>
+
+					</li>
+					<li><a href="js/global.js">global.js</a> - Global JavaScript functionality. Google Analytics is also included here (UA number should be provided to developer before launch). This file should be minified.</li>
+				</ul>
+
+			</li>
+			<li><a href="robots.txt">robots.txt</a> - Standard search crawler file</li>
+			<li><a href="sitemap.xml">sitemap.xml</a> - Standard site index used by many search engines (Be sure to updated before launch)</li>
+			<li><a href="stay-connected.html.xml">stay-connected.html</a> - Social widgets</li>
+			<li><a href="styleguide.html">styleguide.html</a> - To be shared among colleagues and clients</li>
+			<li><a href="talent-network.html.xml">talent-network.html</a> - Talent Network</li>
+			<li><a href="talent-network-contest-rules.html.xml">talent-network-contest-rules.html</a> - Talent Network Contest Rules</li>
+			<li><a href="template.html.xml">template.html</a> - includes most layout scenarios</li>
+			<li>__utm.gif - Used by Google if site is running in secure environment (SSL)</li>
+		</ul>
+
+	</section>
+
+	<p class="back-to-top"><a href="#top">Back to top</a></p>
+
+		<section id="typography">
+
+		<h1>Typography</h1>
+
+		<p><strong class="alert">Important: </strong> The site uses rem ("root em") units divided by a single context of 16px (100%). Since compounding is no longer an issue, as it is with ems, all font sizes can be divided by this single context.</p>
+
+		<p><code>.page</code> has been reset to have a base font size of 12px (12px / 16px = 0.75rem). All fonts will now render at this size unless specified differently. Despite this new font size, all children elements are divided by the root size of 16px.</p>
+
+		<h2>Font Stack</h2>
+
+		<p>Base font family is <b>Arial, "Helvetica Neue", Helvetica, sans-serif</b></p>
+
+		<h1>Heading 1 (omnes_att_regularregular)</h1>
+
+		<p>Pellentesque habitant morbi <strong>tristique senectus</strong> et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero <sup>TM</sup> sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque <em>sit amet est</em> et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu <a href="http://ui.tmp.com/">vulputate magna eros</a> eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+		<h2>Heading 2</h2>
+
+		<p>Pellentesque habitant morbi <i>tristique</i> senectus et netus et malesuada fames ac turpis <b>egestas</b>. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+
+		<h3>Heading 3</h3>
+
+		<p>Pellentesque habitant morbi <i>tristique</i> senectus et netus et malesuada fames ac turpis <b>egestas</b>. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+
+		<h4>Heading 4</h4>
+
+		<p>Pellentesque habitant morbi <i>tristique</i> senectus et netus et malesuada fames ac turpis <b>egestas</b>. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+
+		<h5>Heading 5</h5>
+
+		<p>Pellentesque habitant morbi <i>tristique</i> senectus et netus et malesuada fames ac turpis <b>egestas</b>. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+
+		<h6>Heading 6</h6>
+
+		<p>Pellentesque habitant morbi <i>tristique</i> senectus et netus et malesuada fames ac turpis <b>egestas</b>. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+
+		<h2>Blockquote</h2>
+
+		<div class="content">
+
+			<blockquote>
+
+				<p>I never forget a face, but in your case I'll be glad to make an exception.</p>
+
+				<cite>Groucho Marx</cite>
+
+			</blockquote>
+
+		</div>
+
+		<h2>Ordered List</h2>
+
+		<ol>
+			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+			<li>Aliquam tincidunt mauris eu risus.</li>
+			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+			<li>Aliquam tincidunt mauris eu risus.</li>
+			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+			<li>Aliquam tincidunt mauris eu risus.</li>
+		</ol>
+
+		<h2>Unordered List</h2>
+
+		<ul>
+			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+			<li>Aliquam tincidunt mauris eu risus.</li>
+			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+			<li>Aliquam tincidunt mauris eu risus.
+
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetuer.</li>
+					<li>Lorem ipsum dolor sit amet, consectetuer.</li>
+					<li>Lorem ipsum dolor sit amet, consectetuer.</li>
+				</ul>
+
+			</li>
+			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+			<li>Aliquam tincidunt mauris eu risus.</li>
+		</ul>
+
+	</section>
+
+	<p class="back-to-top"><a href="#top">Back to top</a></p>
+
+	<section id="template">
+
+		<h1>Templates</h1>
+
+		<p>Most templates across the site are compromised of a quad based layout with single, double, triple and inner quad layouts. This layout system is pretty flexible and can be organized in a number of ways for different effect.</p>
+
+		<p>Feel free to reference the <a href="template.html">super template</a> for even more layout scenarios!</p>
+
+		<h2>Module: Single (with search)</h2>
+
+		
+<section class="row">
+
+
+		<form id="job-search" action="http://att.jobs/search.aspx" class="module single">
+	
+			<div class="single-media">
+
+
+			<img src="http://placehold.it/1506x1506" alt=""/>
+		
+		
+			</div><!--/.single-media-->
+		
+			<div class="single-content">
+
+									
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Quisque sit amet est et sapien ullamcorper pharetra.</p>
+
+			<label for="att-job-search">Search Jobs</label>
+				
+			<input type="search" name="att-job-search" id="att-job-search"><input type="submit" value="Go">	
+		
+		
+			</div><!--/.single-content-->
+
+
+</form><!--/.module single-->
+</section><!--/.row-->
+
+
+
+
+		<h2>Module: Single (without search)</h2>
+
+		
+<section class="row">
+
+
+		<div class="module single">
+	
+			<div class="single-media">
+
+
+			<img src="http://placehold.it/1506x1506" alt=""/>
+		
+		
+			</div><!--/.single-media-->
+		
+			<div class="single-content">
+
+									
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Quisque sit amet est et sapien ullamcorper pharetra.</p>
+		
+		
+			</div><!--/.single-content-->
+
+
+		</div><!--/.module single-->
+
+		
+</section><!--/.row-->
+
+
+
+
+		<h2>Module: Quad</h2>
+
+		<p>Module colors are named after fellow team members. To apply a color to a module, simply add one of the following class names to an element:</p>
+
+		<p>Note: Rollover text is large screen enhancement only.</p>
+
+		<ul>
+			<li>Laura (Green), Class name: laura</li>
+			<li>Craig (Blue), Class name: craig</li>
+			<li>Plum (Purple), Class name: plum</li>
+			<li>Spell (Orange), Class name: spell</li>
+			<li>Dustin (Emergency Red), Class name: dustin <b class="alert">Not used</b></li>
+		</ul>
+
+		
+<section class="row">
+
+
+
+	<div class="module quad">		
+			<ul>
+				<li class="laura">
+
+					<a href="#">
+
+						<h2>Laura (Green)</h2>
+
+						<div class="section-content">
+
+							<p>Module colors are named after team members. To apply a color, simply add appropriate class.</p>
+
+						</div> 
+
+						<img src="img/pixel.gif" alt="" aria-hidden="true"/>
+
+					</a>
+
+				</li>
+				<li class="video">
+
+					<a href="http://www.youtube.com/embed/l0UQ27J5w_c" class="video">
+
+						<h2>Dancing Bear</h2>
+
+						<div class="section-content">
+
+							<p>Cursus faucibus, tortor neque egestas augue.</p>
+
+						</div> 
+
+						<img src="img/sample/module-video-bear.gif" alt=""/>
+
+					</a>
+
+				</li>
+				<li class="craig">
+
+					<a href="#">
+
+						<h2>Craig (Blue)</h2> 
+
+						<div class="section-content">
+
+							<p>Module colors are named after team members. To apply a color, simply add appropriate class.</p>
+
+						</div> 
+
+						<img src="img/pixel.gif" alt="" aria-hidden="true"/>
+
+					</a>
+
+				</li>
+				<li class="spell">
+
+					<a href="#">
+
+						<h2>Spell (Orange)</h2> 
+
+						<div class="section-content">
+
+							<p>Module colors are named after team members. To apply a color, simply add appropriate class.</p>
+
+						</div> 
+
+						<img src="img/pixel.gif" alt="" aria-hidden="true"/>
+
+					</a>
+				</li>
+			</ul>
+
+		
+
+	</div><!--/.module-->
+
+</section><!--/.row-->
+
+
+
+
+		<h2>Module: Triple Media Top</h2>
+
+		<p>Media or image not shown on small screens.</p>
+
+		
+<section class="row">
+
+
+
+	<div class="module triple-media-top">
+
+	<div class="media-element">
+		<img src="http://placehold.it/468x228" alt=""/>
+
+		
+
+	</div><!--/.media-element-->
+		<ul>
+			<li class="spell">
+
+				<a href="#" class="external">
+
+					<h2>Careers</h2>
+
+					<div class="section-content">
+
+						<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue.</p>
+
+					</div>  
+
+					<img src="img/pixel.gif" alt="" aria-hidden="true"/>
+
+				</a>
+			</li>
+			<li class="craig">
+
+				<a href="#" class="dialog">
+
+					<h2>Talent Network</h2> 
+
+					<div class="section-content">
+
+						<p>Praesent dapibus, tortor neque egestas augue.</p>
+
+					</div>  
+
+					<img src="img/pixel.gif" alt="" aria-hidden="true"/>
+
+				</a>
+
+			</li>
+		</ul>
+
+		
+
+	</div><!--/.module-->
+
+</section><!--/.row-->
+
+
+
+
+		<h2>Module: Triple Media Right</h2>
+
+		<p>Media or image not shown on small screens.</p>
+
+		
+<section class="row">
+
+
+
+	<div class="module triple-media-right">	
+			<div class="media-element">
+
+				<img src="http://placehold.it/228x468" alt=""/>
+
+			</div><!--/.media-element-->
+
+			<ul>
+				<li class="spell">
+
+					<a href="#">
+
+						<h2>Development Programs</h2>
+
+						<div class="section-content">
+
+							<p>Check out how we put grads on the fast track</p>
+
+						</div> 
+
+						<img src="img/pixel.gif" alt="" aria-hidden="true"/>
+
+					</a>
+
+				</li>
+				<li class="craig">
+
+					<a href="#">
+
+						<h2>Internships</h2>
+
+						<div class="section-content">
+
+							<p>Find out how we give students a head start in their careers</p>
+
+						</div> 
+
+						<img src="img/pixel.gif" alt="" aria-hidden="true"/>
+
+					</a>
+
+				</li>
+			</ul>
+
+		
+
+	</div><!--/.module-->
+
+</section><!--/.row-->
+
+
+
+
+		<h2>Module: Triple Media Left</h2>
+
+		
+<section class="row">
+
+
+
+	<div class="module triple-media-left">	
+			<div class="media-element plum">
+
+			<blockquote>
+
+				<p>One morning I shot an elephant in my pajamas. How he got into my pajamas I'll never know.</p>
+
+				<cite><b>Groucho Marx</b> Animal Crackers</cite>
+
+			</blockquote>
+
+			<img src="img/pixel-vt.gif" alt="" aria-hidden="true"/>
+
+		</div>
+
+		<ul>
+			<li class="laura">
+
+				<a href="#" class="external">
+
+					<h2>Apply</h2> 
+
+					<div class="section-content">
+
+						<p>Pellentesque senectus fames ac turpis egestas.</p>
+
+					</div> 
+
+					<img src="img/pixel.gif" alt="" aria-hidden="true"/>
+
+				</a>
+
+			</li>
+			<li><img src="http://placehold.it/228x228" alt=""/></li>
+		</ul>
+
+		
+
+	</div><!--/.module-->
+
+</section><!--/.row-->
+
+
+
+
+		<h2>Module: Slider</h2>
+
+		
+<section class="row">
+
+
+
+	<div class="module slider">
+			<div class="media-element laura">
+
+				<div class="flexslider">
+
+					<h2>Awards</h2>
+
+					<ul class="slides"> 
+						
+<li id="nav-awards-universum">
+
+	<a href="awards-universum.html">
+
+		<div class="img">
+
+			<img src="img/awards/universum-2013-sm.gif" alt="2013 Universum Award"/>
+
+		</div>
+
+		<div class="blurb">
+
+			<h3>2013 Universum</h3>
+
+			<p><em>Top 100 Ideal Employer</em></p>
+
+		</div>
+
+	</a>
+
+</li>
+<li id="nav-awards-after-college">
+
+	<a href="awards-after-college.html">
+
+		<div class="img">
+
+			<img src="img/awards/after-college-sm.gif" alt="2013 Aftercollege.com"/>
+
+		</div>
+
+		<div class="blurb">
+
+			<h3>2012 Aftercollege.com</h3>
+
+			<p><em>Top 10 Employers</em></p>
+
+		</div>
+
+	</a>
+
+</li>
+<li id="nav-awards-experience">
+
+	<a href="awards-experience.html">
+
+		<div class="img">
+
+			<img src="img/awards/experience-2013-sm.gif" alt="2013 Experience.com"/>
+
+		</div>
+
+		<div class="blurb">
+
+			<h3>2013 Experience.com</h3>
+
+			<p><em>Best Places to Work for Recent Grads</em></p>
+
+		</div>
+
+	</a>
+
+</li>					</ul>
+
+    			</div><!--/.flexslider-->
+
+    			<p class="view-all"><a href="awards.html">View all awards</a></p>
+
+				<img src="img/pixel-hz.gif" alt="" aria-hidden="true"/>
+
+			</div><!--/.media-element-->
+
+		
+
+	</div><!--/.module-->
+
+</section><!--/.row-->
+
+
+
+
+		<h2>Module: Double (Single Row)</h2>
+
+		<div class="temp-override do-not-copy">
+
+			
+
+	<div class="module slider">			
+			<div class="media-element craig">
+
+				<blockquote>
+
+					<p>Real web designers write code. Always have, always will.</p>
+
+					<cite><b>Jeffery Zeldman</b> Author, Designing with Web Standards</cite>
+
+				</blockquote>
+
+				<img src="img/pixel-hz.gif" alt="" aria-hidden="true">
+
+			</div>
+
+			
+
+	</div><!--/.module-->
+
+
+	<div class="module double">
+
+	<div class="media-element">
+			<img src="http://placehold.it/468x228" alt=""/>
+
+			
+
+	</div><!--/.media-element-->
+
+	</div><!--/.module-->
+
+		</div><!--/.temp-override-->
+
+		<h2>Module: Triple (Single Row, Secondary Page)</h2>
+
+		<p>Media or image not shown on small screens.</p>
+
+		<div class="temp-override do-not-copy">
+
+			
+
+	<div class="module triple">
+			<ul>
+				<li class="spell">
+
+					<a href="#" class="external">
+
+						<h2>Apply</h2>
+
+						<img src="img/pixel.gif" alt="">
+
+					</a>
+
+                	</li>
+					<li><img src="http://placehold.it/228x228" alt=""/></li>
+					<li><img src="http://placehold.it/468x228" alt=""/></li>
+			</ul>
+
+			
+
+	</div><!--/.module-->
+
+		</div><!--/.temp-override-->
+
+	</section>
+
+	<p class="back-to-top"><a href="#top">Back to top</a></p>
+
+	<section id="images">
+
+		<h1>Images</h1>
+
+		<p>The following image types need to be provided in the following sizes:</p>
+
+		<h2>Hero Module Graphic</h2>
+
+		<p>The primary image used on Module: Single.</p>
+
+		<img src="http://placehold.it/1506x1506" alt=""/>
+
+		<ul>
+			<li><b>Type:</b> JPG</li> 
+			<li><b>Size:</b> 1506 x 1506</li>
+			<li><b>Quality:</b> 0</li>
+			<li><b>Progressive:</b> Yes</li>
+			<li><b>Naming Convention:</b> module-single-[unique-name].jpg</li>
+		</ul>
+
+		<h2>Vertical Module Graphic</h2>
+
+		<p>Vertical image used on Module: Triple Media Right.</p>
+
+		<img src="http://placehold.it/228x468" alt=""/>
+
+		<ul>
+			<li><b>Type:</b> JPG</li> 
+			<li><b>Size:</b> 228 x 468</li>
+			<li><b>Quality:</b> ~72</li>
+			<li><b>Progressive:</b> Yes</li>
+			<li><b>Naming Convention:</b> vz-[unique-name or incremental number].jpg</li>
+		</ul>
+
+		<h2>Horizontal Module Graphic</h2>
+
+		<p>Horizontal image used on Module: Triple Media Top.</p>
+
+		<img src="http://placehold.it/468x228" alt=""/>
+
+		<ul>
+			<li><b>Type:</b> JPG</li> 
+			<li><b>Size:</b> 468 x 228</li>
+			<li><b>Quality:</b> ~72</li>
+			<li><b>Progressive:</b> Yes</li>
+			<li><b>Naming Convention:</b> hz-[unique-name or incremental number].jpg</li>
+		</ul>
+
+		<h2>Single Module or Video Graphic</h2>
+
+		<img src="http://placehold.it/228x228" alt=""/>
+
+		<ul>
+			<li><b>Type:</b> JPG or GIF</li> 
+			<li><b>Size:</b> 228 x 228</li>
+			<li><b>Quality:</b> ~72 (if JPG)</li>
+			<li><b>Progressive:</b> Yes</li>
+			<li><b>Naming Convention:</b> single-[unique-name or incremental number].jpg or single-video-[unique-name or incremental number].jpg</li>
+		</ul>
+
+		<h2>Awards (Slider)</h2>
+
+		<img src="img/sample/awards-sample-sm.gif" alt=""/>
+
+		<ul>
+			<li><b>Type:</b> GIF or JPG</li> 
+			<li><b>Size:</b> 168 x 102</li>
+			<li><b>Transparent:</b> No</li>
+			<li><b>Naming Convention:</b> awards-[unique-name]-sm.gif</li>
+		</ul>
+
+		<p><b>Tip:</b> Unique names can benefit acessibility and SEO.</p>
+
+		<p><b>Note:</b> Due to nature of award image source, gradient background is used.</p>
+
+		<h2>Awards (Single)</h2>
+
+		<img src="img/sample/awards-sample-lg.gif" alt=""/>
+
+		<ul>
+			<li><b>Type:</b> GIF or JPG</li> 
+			<li><b>Size:</b> 172 x 146</li>
+			<li><b>Transparent:</b> No</li>
+			<li><b>Naming Convention:</b> awards-[unique-name]-lg.gif</li>
+		</ul>
+
+		<p><b>Note:</b> Due to nature of award image source, solid background is used.</p>
+
+	</section>
+
+	<p class="back-to-top"><a href="#top">Back to top</a></p>
+
+	<section id="multimedia">
+
+		<h1>Multimedia</h1>
+
+		<h2>HTML5 Video</h2>
+
+		<div class="video-container">
+		
+			<video controls preload="none" poster="http://ui.tmp.com/media/video/sample.jpg">
+				<source src="http://ui.tmp.com/media/video/sample.mp4" type="video/mp4"/>
+				<source src="http://ui.tmp.com/media/video/sample.webm" type="video/webm"/>
+				<source src="http://ui.tmp.com/media/video/sample.ogv" type="video/ogg"/>
+				<img src="http://ui.tmp.com/media/video/sample.jpg" alt=""/>
+				<p><a href="http://ui.tmp.com/media/video/sample.mp4">Download this video</a></p>
+			</video>
+
+		</div>
+
+		<p>If you are self-hosting video and looking for a solution that does not involve multiple encoding and includes IE8 fallback, look no further than <a href="http://ui.tmp.com/projects/mediaelement/">MediaElemnt.js</a></p>
+
+		<h2>HTML5 Audio</h2>
+
+		<audio controls>
+			<source src="http://ui.tmp.com/media/audio/sample.mp3"/>
+		</audio>
+
+		<p class="download"><a href="http://ui.tmp.com/media/audio/sample.mp3">Download this file</a></p>
+
+	</section>
+
+			
+			</article>
+			
+			<p class="back-to-top"><a href="#top">Return to top</a></p>
+
+		</main><!--/#main--> 
+
+		<nav id="navigation-secondary" role="navigation">
+
+			<h2>Site Navigation</h2>
+
+			<ul>
+				<li id="nav-career-areas" class="parent"><a href="index.html">College</a>
+
+					<ul class="child">
+						<li><a href="development-programs.html">Development Programs</a></li>
+						<li><a href="internships.html">Internships</a></li>
+						<li><a href="http://att.jobs/careercenter/" class="external">Career Center Staff</a></li>
+						<li class="mobile"><a href="http://www.att.com/" class="external">att.com</a></li>
+						<li class="mobile"><a href="http://att.jobs/" class="external">att.jobs</a></li>
+					</ul>
+
+				</li>
+			</ul>
+
+		</nav>
+
+		<div id="utility">
+
+			<h2>More AT&amp;T</h2>
+
+			<ul>
+				<li><a href="http://www.att.com/" class="external">att.com</a></li>
+				<li class="active"><a href="http://att.jobs/" class="external">att.jobs</a></li>
+			</ul>
+
+		</div><!--/#navigation-segment-->
+
+		<footer role="contentinfo">
+
+			<h2>Additional Links</h2>
+
+			<ul>
+				<li><a href="http://www.att.com/gen/privacy-policy?pid=2506" class="external">Privacy Policy</a></li>
+				<li><a href="http://www.att.com/gen/general?pid=11561" class="external">Terms of Use</a></li>
+				<li><a href="sitemap.html">Sitemap</a></li>
+			</ul>
+
+			<a class="addthis_button external" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=ra-502d65c709bbdafa">Share</a>
+
+			<p><a href="http://www.att.com/gen/privacy-policy?pid=2587" class="external">&copy; 2013 AT&amp;T Intellectual Property</a>. All rights reserved. AT&amp;T, AT&amp;T logo and all other marks contained herein are trademarks of AT&amp;T Intellectual Property and/or AT&amp;T affiliated companies.</p>
+
+    		<p>Discrimination and all unlawful harassment (including sexual harassment) in employment is not tolerated. We encourage success based on our individual merits and abilities without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, disability, marital status, citizenship status, military status, or veteran status. We support and obey laws that prohibit discrimination everywhere we do business.</p>
+
+		</footer>
+	
+	</div><!--/.page-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/global.min.js"></script>
+	
+</body>
+</html>
