@@ -1,0 +1,55 @@
+# Humans Rule! 
+
+## This website is the result of the hard work of the following professionals:
+
+## Management Team
+
+Lead Digital Producer/Project Management: Laura Cafasso
+
+Digital Project Manager: Samantha Lacy
+
+Technical Project Management Support: Ted Stetzel
+
+## Creative & Development Teams
+
+Words: Jessica Quinby
+
+Creative Director: Craig Knutson
+
+Design: Jake Rueff
+
+Interactive Development and Director of Noms: Stephanie Plumeri
+
+Lead Backend Developer: Bobby KC
+
+UI Director and Accessibility Wiz Kid: Michael "Spell" Spellacy
+
+## QA Team
+
+Ruben Nieves
+
+Diane Crawford
+
+## Account Team
+
+Dustin Naughton: Account Director
+
+Chris Citero: Digital Strategist 
+
+## Special Thanks
+
+Kati  Doebler: All knowing digital AT&T person of interest
+
+Debbie Foerst: The ever helpful lending hand for Spell
+
+Bobby KC: Who probably did something awesome.
+	
+## Special Thanks
+
+Google
+
+## Site Stuff
+
+* Standards: HTML5, CSS3 (SASSified)
+* Components: Modernizr, jQuery 1.9, Respond.js, Google Analytics, IE9.js (for IE8 support), AddThis
+* Hosting: TMP Worldwide, LLC
